@@ -18,21 +18,22 @@ finalizar, toda a estrutura está envolvida num loop while True, que é encerrad
 ele deseja realizar a operação novamente com outro número. 
 '''
 
+
+def fatorial(x):
+    contador = (x - 1)
+    resultado = x
+    while contador > 0:
+        resultado *= contador
+        contador -= 1
+    print(resultado)
+
+def tabuada(x):
+    for i in range(1,11):
+        valor = x*i
+        i += 1
+        print(valor)
+
 while True:
-    def fatorial(x):
-        contador = (x - 1)
-        resultado = x
-        while contador > 0:
-            resultado *= contador
-            contador -= 1
-        print(resultado)
-
-    def tabuada(x):
-        for i in range(1,11):
-            valor = x*i
-            i += 1
-            print(valor)
-
     x = int(input("\nDigite um número inteiro: "))
 
     if x % 2 != 0:
