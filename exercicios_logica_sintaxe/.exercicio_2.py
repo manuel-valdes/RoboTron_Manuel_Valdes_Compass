@@ -8,9 +8,9 @@ um pouco mais dinâmico.
 
 '''
 
-primeira_nota = float(input("Digite sua primeira nota: "))
+primeira_nota = float(input("\nDigite sua primeira nota: "))
 segunda_nota = float(input("Digite sua segunda nota: "))
 
 media = round(((primeira_nota + segunda_nota)/2), 2)
 
-print("A média é", media)
+print("\nA média é de", media, "\n")

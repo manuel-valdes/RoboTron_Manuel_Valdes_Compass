@@ -9,7 +9,7 @@ segue executando esse caminho até chegar no multiplicador de 1. Assim, criei um
 até aquele momento (que é armazenado pela variável "resultado"). Em seguida, um loop while executa a operação de multiplicação na estrutura do fatorial enquanto a variável "contador"
 é maior que zero (finalizando ao alcançar o valor de 1). Por fim, a função "fatorial" imprime o resultado. 
 
-Em relação à funçõa de "tabuada", criada para apresentar a tabuada de 1 a 10 do número recebido caso ele seja par, um loop for com range entre 1 e 11 (uma vez que ele exclui da 
+Em relação à função de "tabuada", criada para apresentar a tabuada de 1 a 10 do número recebido caso ele seja par, um loop for com range entre 1 e 11 (uma vez que ele exclui da 
 operação o número máximo indicado, portanto o loop vai até 10) armazena na variável "valor" o resultado da operação de cada multiplicador entre 1 e 10, imprimindo esse resultado
 a cada iteração do loop.
 

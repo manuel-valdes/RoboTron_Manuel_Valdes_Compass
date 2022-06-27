@@ -7,12 +7,12 @@ de acordo com seu resultado. O operador de modulação retorna o resto da divis�
 por 2 sempre é 0.
 '''
 
-primeiro_valor = input("Digite o primeiro valor: ")
-segundo_valor = input("Digite o segundo valor: ")
+primeiro_valor = int(input("\nDigite o primeiro valor: "))
+segundo_valor = int(input("Digite o segundo valor: "))
 
 soma = primeiro_valor + segundo_valor
 
 if soma % 2 == 0:
-    print("A soma desses números gera um resultado par! ")
+    print("\nA soma desses números gera um resultado par! \n")
 else:
-    print("A soma desses números gera um resultado ímpar! ")
+    print("\nA soma desses números gera um resultado ímpar! \n")

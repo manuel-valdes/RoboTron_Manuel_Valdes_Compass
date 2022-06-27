@@ -1,4 +1,4 @@
-# Exercício: crie um programa que contêm uma função que receba dois parâmetros inteiros e retorna a média dos dois valores.
+# Exercício: crie um programa que contém uma função que receba dois parâmetros inteiros e retorna a média dos dois valores.
 
 '''
 Solução: a função "calcula_media" tem dois parâmetros. Quando chamada, ela realiza a média entre os valores indicados pelo usuário no momento em que ele executa 

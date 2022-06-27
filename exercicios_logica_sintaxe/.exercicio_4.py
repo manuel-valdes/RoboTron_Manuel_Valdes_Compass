@@ -9,11 +9,11 @@ com seu valor. No caso, escolhi considerar que idades maiores ou IGUAIS a 18 imp
 considerada adulta. A mesma lógica foi aplicada em relação a pessoas com idade a partir de 12 anos.
 '''
 
-idade = int(input("Digite sua idade: "))
+idade = int(input("\nDigite sua idade: "))
 
 if idade >= 18:
-    print("Maior de idade")
+    print("\nMaior de idade\n")
 elif idade >= 12 and idade < 18:
-    print("Você é um adolescente")
+    print("\nVocê é um adolescente\n")
 else:
-    print("Você é uma criança")
+    print("\nVocê é uma criança\n")

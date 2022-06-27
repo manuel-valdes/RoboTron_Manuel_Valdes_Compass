@@ -6,10 +6,10 @@ Indicado um número válido, o programa vai para um loop for estabelecido no ran
 0 e x são ímpares. Estes serão impressos.
 '''
 
-x = int(input("Digite um número maior que 2: "))
+x = int(input("\nDigite um número maior que 2: "))
 
 while not x > 2:
-    print("\nO número precisa ser maior que 2! ")
+    print("\nO número precisa ser maior que 2! \n")
     x = int(input("Digite um número maior que 2: "))
 
 print(f"\nOs números ímpares entre 0 e {x} são: ")

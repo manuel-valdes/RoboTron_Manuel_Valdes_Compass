@@ -3,7 +3,7 @@
 '''
 Solução: existem diversas formas de fazer este exercício. Há algum tempo, fiz um curso de Python na Udemy ("The Modern Python 3 Bootcamp", do instrutor Colt Steele). Decidi
 consultar minhas notas do curso para ver se existem métodos mais diretos de realizar uma operação como esta e, naturalmente, me deparei com duas formas simples: através da operação
-de slicing (lista[start, end, step]) ou da função reverse(). Porém, decidi deixar essas opções comentadas no final do arquivo e desenvolver o exercício com base em dois loops for.
+de slicing (lista[start: end: step]) ou da função reverse(). Porém, decidi deixar essas opções comentadas no final do arquivo e desenvolver o exercício com base em dois loops for.
 O primeiro pede que o usuário insira 15 valores que serão armazenados na lista "lista_valores" através da função append() (todos os valores serão armazenados em formato de string, 
 portanto podem ser palavras, frases, números, etc.). 
 
@@ -36,4 +36,10 @@ print(lista_valores[-1:0:-1])
 Possível solução através da função reverse():
 lista_valores.reverse()
 print(lista_valores)
+'''
+
+'''
+Criei a segunda lista (lista_contrario) porque queria que, no momento do print(), todos os valroes fossem impressos na mesma linha, seguindo a estrutura de lista. Porém, outra solução
+mais sucinta seria a de executar a função print() diretamente no loop for, usando a própria "lista_valores" com uma iteração de trás para frente. Neste caso, cada valor seria impresso
+em uma nova linha.
 '''
