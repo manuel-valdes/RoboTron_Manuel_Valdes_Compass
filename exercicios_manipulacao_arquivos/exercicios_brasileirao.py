@@ -10,7 +10,7 @@ import pprint
 print("\nExercício 5:\n")
 
 def campeonato_json():
-    with open("exercicios_manipulacao_arquivos/_brasileirao.json", encoding="UTF-8") as campeonato:
+    with open("_brasileirao.json", encoding="UTF-8") as campeonato:
         dados_campeonato = json.load(campeonato)
         return dados_campeonato
 

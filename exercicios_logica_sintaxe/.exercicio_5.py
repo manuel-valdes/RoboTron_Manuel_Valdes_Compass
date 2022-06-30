@@ -9,7 +9,7 @@ sum()) dividida pelo comprimento da lista (por meio da função len()). Novament
 lista_pares = []
 
 for i in range(20):
-    num = int(input("Digite o " + str(i+1) +  "o número: "))
+    num = int(input("\nDigite o " + str(i+1) +  "o número: "))
     if num % 2 == 0:
         lista_pares.append(num)
     else:
@@ -17,4 +17,4 @@ for i in range(20):
 
 media = sum(lista_pares) / len(lista_pares)
 
-print(round(media, 2))
+print("\nA média é de", round(media, 2))

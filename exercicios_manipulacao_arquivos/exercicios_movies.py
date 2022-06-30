@@ -9,7 +9,7 @@ import pprint
 
 print("\nExercício 8:\n")
 
-filmes = pd.read_csv('exercicios_manipulacao_arquivos/_movies.csv', encoding='UTF-8', sep=',')
+filmes = pd.read_csv('_movies.csv', encoding='UTF-8', sep=',')
 pprint.pprint(filmes)
 
 # Função criada simplesmente para separar os resultados no terminal, deixando a leitura dos dados mais acessível:
@@ -89,8 +89,8 @@ Solução:
 
 print("\nExercício 13:\n")
 
-filmes["Ano/Filme"] = filmes["Movie"] + "    " + filmes["Year"].apply(str)
-pprint.pprint(filmes["Ano/Filme"])
+filmes["Filme/Ano"] = filmes["Movie"] + "    " + filmes["Year"].apply(str)
+pprint.pprint(filmes["Filme/Ano"])
 
 separa_dados()
 

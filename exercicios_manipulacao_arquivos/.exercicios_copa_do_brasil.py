@@ -10,7 +10,7 @@ import pprint
 print("\nExercício 1:\n")
 
 def retornar_json():
-    with open("exercicios_manipulacao_arquivos/_copa_do_brasil.json", encoding="UTF-8") as partida:
+    with open("_copa_do_brasil.json", encoding="UTF-8") as partida:
         dados_partida = json.load(partida)
         return dados_partida
 

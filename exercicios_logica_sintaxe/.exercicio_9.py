@@ -15,7 +15,7 @@ os valores da "lista_valores" à "lista_contrario", porém de forma que esses va
 lista_valores = []
 
 for i in range(15):
-    num = input("Insira o " + str(i+1) + "o valor na lista: ")
+    num = input("\nInsira o " + str(i+1) + "o valor na lista: ")
     lista_valores.append(num)
 
 lista_contrario = []
@@ -25,6 +25,7 @@ for valor in lista_valores:
     lista_contrario.append(lista_valores[contador])
     contador -= 1
 
+print()
 print(lista_contrario)    
 
 '''
