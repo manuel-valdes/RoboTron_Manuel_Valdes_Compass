@@ -1,7 +1,9 @@
 # Exercício 1: baixe o arquivo do link JSON 1, abra ele no vsCode com Python nomeando-o como partida guarde em uma variável e printe o JSON inteiro no terminal.
 
 '''
-Solução: 
+Solução: criação da função "retornar_json", armazenada na variável "chamar_json". Essa função será usada ao longo de todos os exercícios para interagir com o arquivo .json. A função
+open() permite ler o conteúdo do arquivo em questão e a função load() de certa forma "traz" o conteúdo para a variável indicada. Para interagir com os arquivos .json é necessário
+importar a biblioteca através do comando "import json". Decidi também importar a biblioteca pprint para printar os dados de maneira mais esteticamente agradável.
 '''
 
 import json
@@ -28,7 +30,8 @@ separa_dados()
 # Exercício 2: pegue o arquivo JSON 1 e printe apenas o nome do time vencedor no terminal.
 
 '''
-Solução: 
+Solução: simples indicação do caminho a ser seguido para encontrar o nome do time vencedor. Como ele está localizado dentro do dicionário "time_mandante", que por sua vez se encontra
+dentro da lista "copa-do-brasil", é necessário indicar a direção passo a passo.
 '''
 
 print("\nExercício 2:\n")
@@ -41,7 +44,7 @@ separa_dados()
 # Exercício 3: do JSON 1 guarde apenas o Nome do Estádio, o Placar e o Status do jogo dentro de variáveis e mostre-as.
 
 '''
-Solução: 
+Solução: resolvido da mesma forma que o exercício anterior, porém em mais de um caso.
 '''
 
 print("\nExercício 3:\n")
@@ -58,6 +61,10 @@ print("Status:", status_jogo)
 separa_dados()
 
 # Exercício 4: no JSON 1 printe todas as chaves e valores do time visitante.
+
+'''
+Solução: neste caso, como o "time_visitante" é um dicionário, apenas é necessário indicar o caminho até ele e printar sua estrutura.
+'''
 
 print("\nExercício 4:\n")
 

@@ -1,7 +1,8 @@
 # Exercício 5: guarde o arquivo JSON 2 nomeando-o como campeonato em uma variável e printe todos os seus dados.
 
 '''
-Solução: 
+Solução: criação da função "campeonato_json", armazenada na variável "brasileirao_json". Essa função será usada ao longo de todos os exercícios para interagir com o arquivo .json. 
+A função open() permite ler o conteúdo do arquivo em questão e a função load() de certa forma "traz" o conteúdo para a variável indicada. 
 '''
 
 import json
@@ -28,7 +29,7 @@ separa_dados()
 # Exercício 6: faça com que o programa printe apenas os primeiros dados dentro de edicao_atual, fase_atual, rodada_atual usando o JSON 2.
 
 '''
-Solução: 
+Solução: analisando o arquivo original, é possível traçar os caminhos que levam aos primeiros dados de cada uma dessas estruturas de dados. 
 '''
 
 print("\nExercício 6:\n")
@@ -44,7 +45,8 @@ separa_dados()
 # Exercício 7: percorra o JSON 2, utilizando o loop FOR e printe suas chaves principais.
 
 '''
-Solução: 
+Solução: através do loop for, a variável i armazena os valores de todas as chaves da "primeira camada" do JSON 2, ou seja, aquelas chaves que não estão dentro de outros
+dicionários. Assim, dentro do escopo do arquivo, a função print imprime cada uma delas enquanto o loop for continuar iterando.
 '''
 
 print("\nExercício 7:\n")

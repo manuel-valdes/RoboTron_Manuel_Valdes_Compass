@@ -161,6 +161,76 @@ O último comando que vamos ver é o "cd..". Ele simplesmente volta para a pasta
   
 </div>
   
-Novamente, dentro desta pasta podemos rodar qualquer arquivo que esteja ali através do comando "python + nome_do_arquivo.py"
+Novamente, dentro desta pasta podemos rodar qualquer arquivo que esteja ali através do comando "python + nome_do_arquivo.py".
+
+# 🖥️ Ferramentas e extensões utilizadas<a name="ferramentas"></a>  
   
+<div align=center>
+
+<table>
+  <tr>
+    <td nowrap><strong>Ferramenta</strong></td>
+    <td>Função</td>
+  </tr>  
+  <tr>
+    <td>VSCode</td>
+    <td>IDE utilizada para desenvolvimento do código e realização de comentários explicando as soluções</td>
+  </tr>
+  <tr>
+    <td>Python</td>
+    <td>Linguagem de programação</td>
+  </tr>
+  <tr>
+    <td>Pandas</td>
+    <td>Biblioteca do Python para manipulação de arquivos</td>
+  </tr>
+  <tr>
+    <td>PPrint</td>
+    <td>Biblioteca do Python para impressão (print()) formatada</td>
+  </tr>
+  <tr>
+    <td>Git</td>
+    <td>Versionamento do código</td>
+  </tr>
+  <tr>
+    <td>GitHub</td>
+    <td>Repositório remoto usado para compartilhar e armazenar código e dados</td>
+  </tr>
+  <tr>
+    <td>CSV Rainbow</td>
+    <td>Extensão do VSCode que facilita a leitura de arquivos .csv</td>
+  </tr>
+  <tr>
+    <td>JSON</td>
+    <td>Biblioteca do Python que permite a manipulação de arquivos .json</td>
+  </tr>
+  <tr>
+    <td>Prompt de comando</td>
+    <td>Usado para rodar o código</td>
+  </tr>
+</table>
+
+</div> 
+  
+# 🤯 Referências<a name="referencias"></a> 
+
+Todos estes exercícios foram desenvolvidos com base no conhecimento gerado por:
+
+- [Documentação do Python](https://www.python.org/doc/) para consultas relacionadas às funcionalidades da linguagem
+- [Documentação do Pandas](https://pandas.pydata.org/docs/) para entender o funcionamento e a estrutura de comandos da biblioteca
+- [Documentação do Git](https://git-scm.com/doc) para ter em mãos os principais comandos Git
+- [Documentação do VSCode](https://code.visualstudio.com/docs) para entender o funcionamento da IDE
+- [StackOverflow](https://stackoverflow.com/) para eventuais dúvidas e consulta a erros
+- Masterclasses e conteúdo disponibilizado pelo PB da Compass.uol
+- [100 days of Python](https://www.udemy.com/course/100-days-of-code/): curso da Udemy que fiz há algum tempo (não cheguei a completar)
+- [The modern Python 3 bootcamp](https://www.udemy.com/course/the-modern-python3-bootcamp/): outro curso de Python que rendeu uma série de anotações e aprendizados
+- [Canal de Youtube da Rafaella Ballerini](https://www.youtube.com/c/rafaellaballerini) para videoaulas sobre Git e GitHub
+
+# 👏 Agradecimentos<a name="agradecimentos"></a> 
+
+Deixo aqui meus sinceros agradecimentos às pessoas que colaboraram com este projeto:
+
+- [Silvioney Backes](https://github.com/neybackes) pela troca de ideias e ajuda em dúvidas
+- [Matheus Locatelli](https://github.com/matheuslocatelli) pelo acompanhamento e apoio diário
+
 </div>
