@@ -68,9 +68,6 @@ simbolo_escolhido = input("\nDigite o símbolo do elemento que você deseja aces
 print()
 print(tabela_periodica[tabela_periodica["Simbolo"] == simbolo_escolhido])
 
-#filmes_df["Name"][filmes_df["Year"] == 1993]
-# print((tabela_periodica["Simbolo"]) if tabela_periodica["Simbolo"] == simbolo_escolhido)
-
 separa_dados()
 
 '''
