@@ -3,6 +3,12 @@ Letra A: crie uma “aplicação” em loop que tenha uma opção para listar to
 os nomes dos elementos na tabela.
 '''
 
+'''
+Solução: criação de um menu dentro de um input através do qual o usuário escolhe qual dado ele quer receber. Em seguida, criação de uma estrutura condicional que associa cada 
+input do usuário com a impressão de um dado específico, como indicado no menu. Por fim, todo esse código se encontra encorpado por um loop while, do qual o usuário consegue sair
+no meu (ao digitar 7 no input) ou quando ele digita um valor inválido e responde "n" ao input "Você não digitou um valor válido. Deseja tentar novamente?".
+'''
+
 import pandas as pd
 import pprint
 
@@ -27,7 +33,7 @@ while True:
     elif escolha == "2":
         print("\nNome:\n\n"+tabela_periodica["Nome"].to_string(index=True))
     elif escolha == "3":
-        print("\nNúmeros atômico:\n\n"+tabela_periodica["NumeroAtomico"].to_string(index=True))
+        print("\nNúmero atômico:\n\n"+tabela_periodica["NumeroAtomico"].to_string(index=True))
     elif escolha == "4":
         print("\nLinha:\n\n"+tabela_periodica["Linha"].to_string(index=True))
     elif escolha == "5":
@@ -42,6 +48,8 @@ while True:
         else:
             break
 
+# Função criada simplesmente para separar os resultados no terminal, deixando a leitura dos dados mais acessível:
+
 def separa_dados():
     separador = ("-------------"*14)
     print("\n", separador)
@@ -52,20 +60,28 @@ separa_dados()
 Letra B: listar todos os dados de determinado elemento, buscando através do seu símbolo.
 '''
 
-simbolo = input("\nDigite o símbolo do elemento que você deseja acessar: ")
-print(tabela_periodica.loc["simbolo", :])
+'''
+Solução: comparação da coluna "Simbolo" com a variável que armazena o input do usuário. Caso a comparação seja verdadeira, printa a linha inteira.
+'''
 
-#separa_dados()
+simbolo_escolhido = input("\nDigite o símbolo do elemento que você deseja acessar: ")
+print()
+print(tabela_periodica[tabela_periodica["Simbolo"] == simbolo_escolhido])
+
+#filmes_df["Name"][filmes_df["Year"] == 1993]
+# print((tabela_periodica["Simbolo"]) if tabela_periodica["Simbolo"] == simbolo_escolhido)
+
+separa_dados()
 
 '''
 Letra C: listar todos os dados de todos os elementos inseridos.
 '''
 
 '''
-Solução: 
+Solução: caso o input do usuário indique que ele quer acessar todos os dados da tabela, ela é printada em sua integridade através da função pprint, que mantém sua formatação.
 '''
 
-if input("\nDeseja acessar todos os dados de todos os elementos inseridos? (s/n): ") == "s":
+if input("\nDeseja acessar todos os dados de todos os elementos inseridos? (s/n): ") == "s" or "S":
     print()
     pprint.pprint(tabela_periodica)
 else:

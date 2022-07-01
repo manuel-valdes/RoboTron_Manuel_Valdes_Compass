@@ -231,6 +231,7 @@ Todos estes exercícios foram desenvolvidos com base no conhecimento gerado por:
 Deixo aqui meus sinceros agradecimentos às pessoas que colaboraram com este projeto:
 
 - [Silvioney Backes](https://github.com/neybackes) pela troca de ideias e ajuda em dúvidas
+- [Amanda Bressam](https://github.com/abressam) pela troca de ideias e ajuda em dúvidas
 - [Matheus Locatelli](https://github.com/matheuslocatelli) pelo acompanhamento e apoio diário
 
 </div>
