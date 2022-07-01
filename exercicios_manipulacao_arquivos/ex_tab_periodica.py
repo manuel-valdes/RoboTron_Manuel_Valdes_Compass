@@ -43,7 +43,7 @@ while True:
     elif escolha == "7":
         break
     else:
-        if input("Você não digitou um valor válido. Deseja tentar novamente? (s/n): ") == "s":
+        if input("\nVocê não digitou um valor válido. Deseja tentar novamente? (s/n): ") == "s":
             continue
         else:
             break
