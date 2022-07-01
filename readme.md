@@ -82,7 +82,7 @@ O Visual Studio Code será nosso ambiente de desenvolvimento (IDE) de preferênc
   
 ## Pandas<a name="pandas"></a>
   
-Por se tratar de uma biblioteca, o Pandas não tem um instalador guiado como as outras ferramentas que discutimos até agora. Sua instalação é feita diretamente no terminal por meio do pip - o gerenciador de pacotes nativo do Python. Ainda assim, o processo também é simples. Digite "cmd" na barra de pesquisas do Windows (aquela que fica do lado do botão iniciar) e aperte enter. Com o prompt de comando aberto, digite o primeiro comando da imagem a seguir. É possível que seu pip esteja desatualizado, se essa informação aparecer na mensagem de erro, execute o segundo comando da imagem e rode o primeiro novamente depois de concluído. 
+Por se tratar de uma biblioteca, o Pandas não tem um instalador guiado como as outras ferramentas que discutimos até agora. Sua instalação é feita diretamente no terminal por meio do pip - o gerenciador de pacotes nativo do Python. Ainda assim, o processo também é simples. Digite "cmd" na barra de pesquisas do Windows (aquela que fica do lado do botão iniciar) e aperte Enter. Com o prompt de comando aberto, digite o primeiro comando da imagem a seguir. É possível que seu pip esteja desatualizado, se essa informação aparecer na mensagem de erro, execute o segundo comando da imagem e rode o primeiro novamente depois de concluído. 
   
 <div align=center>  
   
@@ -137,7 +137,7 @@ Clicando nas setinhas do lado esquerdo das pastas, é possível abri-las e enxer
   
 # 🖥️ Rodando os exercícios no CMD (Prompt de Comando)<a name="cmd"></a>  
   
-O ponto mais importante do CMD é saber navegar entre diretórios (pastas). É preciso estar na pasta em que o arquivo está localizado para poder colocá-lo em ação. Assim, neste momento, apenas três comandos nos interessam. O primeiro deles é o comando "cd" (change directory). Como seu nome indica, a função dele é de mudar de diretório. Por padrão, o ponto de partida é o caminho C:\Users\Usuário (em que "Usuário" seria seu nome ou o nome que colocaram quando o computador estava sendo configurado). Para rodar os arquivos do repositório que clonamos, precisamos chegar até a pasta em que eles estão localizados. Digamos que você deseja rodar algum dos exercícios do dia 5, ou seja, aqueles que estão na pasta [exercicios_logica_sintaxe](https://github.com/manuel-valdes/RoboTron_Manuel_Valdes_Compass/tree/develop/exercicios_logica_sintaxe). Partindo do caminho inicial, execute o seguinte comando: 
+O ponto mais importante do CMD é saber navegar entre diretórios (pastas). É preciso estar na pasta em que o arquivo está localizado para poder colocá-lo em ação. Assim, neste momento, apenas três comandos nos interessam. O primeiro deles é o comando "cd" (change directory). Como seu nome indica, a função dele é de mudar de diretório. Por padrão, o ponto de partida é o caminho C:\Users\Usuário (em que "Usuário" seria seu nome ou o nome que colocaram quando o computador estava sendo configurado). Para rodar os arquivos do repositório que clonamos, precisamos chegar até a pasta em que eles estão localizados. Digamos que você deseja rodar algum dos exercícios do dia 5, ou seja, aqueles que estão na pasta [exercicios_logica_sintaxe](https://github.com/manuel-valdes/RoboTron_Manuel_Valdes_Compass/tree/develop/exercicios_logica_sintaxe). Partindo do caminho inicial, execute o seguinte comando (desde que a pasta se encontre na Área de Trabalho): 
   
 <div align=center>
   
@@ -145,7 +145,7 @@ O ponto mais importante do CMD é saber navegar entre diretórios (pastas). É p
   
 </div>
   
-Pronto. Agora estamos na pasta em que os arquivos estão localizados. Mas como faço para rodá-los? Simples: execute o comando "python + nome_do_arquivo.py" e veja o resultado do código no terminal.
+Pronto. Agora estamos na pasta em que os arquivos estão localizados. Mas como faço para rodá-los? Simples: execute o comando "python + nome_do_arquivo.py" e veja o resultado do código no terminal. 
   
 <div align=center>  
   
@@ -161,7 +161,7 @@ O último comando que vamos ver é o "cd..". Ele simplesmente volta para a pasta
   
 </div>
   
-Novamente, dentro desta pasta podemos rodar qualquer arquivo que esteja ali através do comando "python + nome_do_arquivo.py".
+Novamente, dentro desta pasta podemos rodar qualquer arquivo que esteja ali através do comando "python + nome_do_arquivo.py". Deixo aqui, também, a recomendação de que os códigos sejam rodados com o CMD em tela cheia. Criei uma espécie de linha no código que serve como separador entre exercícios. Na tela cheia, fica mais fácil de entender como as informações estão separadas.
 
 # 🖥️ Ferramentas e extensões utilizadas<a name="ferramentas"></a>  
   
